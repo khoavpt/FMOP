@@ -77,6 +77,6 @@ def get_match_result(home_stats, away_stats):
         result['result'] = f"{away_stats['Club'][0]} win!"
     else:
         result['result'] = "Draw!"
-        result["result logo"] =  "/static/unknown.png"
+        result["result_logo"] =  "/static/unknown.png"
 
     return result
